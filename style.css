@@ -1,43 +1,81 @@
 *{
     margin: 0;
+   
 }
 
 body{
-    background-color: azure;
+    /* background-color: rgba(0,0,0,0.8); */
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godubrovnik.com%2Fwp-content%2Fuploads%2Fpizza.jpg&f=1&nofb=1&ipt=b7e77a3747ab2f74a36cb6bdc6351aec12f1dde43fe0f37ea9fe61304fa9d095&ipo=images") fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
     margin: 0;
-    padding: 20px;
+    font-family: cursive, 'Brush Script MT';
 }
 
+.main-section{
+    margin: 0;
+    padding: 0;
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+main{
+    padding: 35px 35px 0 35px;
+}
 .header-div{
     text-align: center;
-    margin: 25px;
+    margin: 10px;
+    padding: 15px;
     font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Handwriting';
+    background-color: rgba(0,0,0,0.3);
+    color: white;
 }
 
 @media(min-width: 768px){
     .flex-div{
         display: flex;
     }
+    
+    
+    .section:hover{
+        width: 20%
+    }
 }
+.section{
+        border: 2px double black;
+        border-radius: 12px;
+        margin: 0.5em;
+        box-shadow: 0 0 10px 0 #191716;
+    }
 
 .section{
     border: 2px double black;
     border-radius: 12px;
     margin: 0.5em;
+    box-shadow: 0 0 10px 0 #191716;
 }
 
+.section:hover{
+    width: 80%
+}
+
+/* styling each section */
 .sec-1{
     background-color: #FFCDB2;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(120,0,0,0.3))
 }
 
 .sec-2{
-    background-color: #D3BCC0;
+    background-color: #FFCDB2;
+    background-image: linear-gradient(to right, rgba(120,0,0,0.3), rgba(190,0,0,0.7))
 }
 
 .sec-3{
-    background-color: #FF934F;
+    background-color: #FFCDB2;
+    background-image: linear-gradient(to right, rgba(190,0,0,0.7), rgba(255,0,0,1))
 }
+/* end of section styling */
 
 figure{
     border-radius: 12px;
@@ -50,7 +88,7 @@ img{
 }
 
 img:hover{
-    opacity: 0.6;
+    filter: brightness(50%);
 }
 
 .section-div{
@@ -68,11 +106,13 @@ img:hover{
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #191716;
-    margin: 0 10px 0 10px;
+    margin: 0;
     border-radius: 7px 7px 0 0 ;
+    padding: 10px 0 15px 0;
 }
 
 .div-1{
-    width: 48%;
-    padding: 5px;
+    width: 45%;
+    padding-left: 1em;
+    margin: 0.5em;
 }
