@@ -27,7 +27,7 @@ main{
     margin: 10px;
     padding: 15px;
     font-size: 35px;
-    /* font-family: cursive, 'Brush Script MT'; */
+    font-family: cursive, 'Brush Script MT';
     background-color: rgba(0,0,0,0.3);
     color: white;
 }
@@ -49,30 +49,23 @@ main{
         box-shadow: 0 0 10px 0 #191716;
     }
 
-.section{
-    border: 2px double black;
-    border-radius: 12px;
-    margin: 0.5em;
-    box-shadow: 0 0 10px 0 #191716;
-}
-
 .section:hover{
     width: 80%
 }
 
 /* styling each section */
 .sec-1{
-    background-color: #FFCDB2;
+    background-color: #FFFFFF;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(120,0,0,0.3))
 }
 
 .sec-2{
-    background-color: #FFCDB2;
+    background-color: #FFFFFF;
     background-image: linear-gradient(to right, rgba(120,0,0,0.3), rgba(190,0,0,0.7))
 }
 
 .sec-3{
-    background-color: #FFCDB2;
+    background-color: #FFFFFF;
     background-image: linear-gradient(to right, rgba(190,0,0,0.7), rgba(255,0,0,1))
 }
 /* end of section styling */
@@ -100,8 +93,8 @@ img:hover{
 .contact-section{
     width: 98.5%;
     color: white;
-    justify-content: center;
-    display: inline;
+    /* justify-content: center; */
+    /* display: inline; */
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,6 +106,6 @@ img:hover{
 
 .div-1{
     width: 45%;
-    padding-left: 1em;
-    margin: 0.5em;
+    padding-left: 25px;
+    /* margin: 0.5em;  */
 }
