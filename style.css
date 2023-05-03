@@ -27,7 +27,7 @@ main{
     margin: 10px;
     padding: 15px;
     font-size: 35px;
-    font-family: 'Lucida Handwriting';
+    font-family: cursive, 'Brush Script MT', 'Lucida Handwriting';
     background-color: rgba(0,0,0,0.3);
     color: white;
 }
